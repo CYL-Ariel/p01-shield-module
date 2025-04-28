@@ -32,7 +32,7 @@
                                 &kp BSPC &to NAV  &kp SPACE &mt LALT $tog NUM &kp LCTRL &mt RCTRL $CAPS &mt RALT $tog NUM $kp SPACE $to NAV  $kp BSPC
             >;
         };
-        num_layer { // Layer 2
+        nav_layer { // Layer 2
             bindings = <
       &none &none &UP      &none   &none     &none    &none    &none &none &none &none &none    
 &none &none &LEFT &DOWN    &RIGHT  &none     &none    &none    &none     &none &none &none
@@ -41,10 +41,12 @@
             >;
         };
         blu_layer { // Layer 3
+            bindings = <
     &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR &none &to BASE &to BASE &none &bt BT_CLR &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &none
 &none &none &none &none &none &none &none &none &none &none &none &none
 &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
 &none &none &none &none &none &none &none &none &none &none &none &none 
-        }
+            >;
+        };
     };
  };
