@@ -10,17 +10,11 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-
-// from p01.dsti
-//         | SW1   | SW2   | SW3   | SW4   | SW5   | SW6   |                               | SW6   | SW5    | SW4    | SW3    | SW2    | SW1    |
-// | SW7   | SW8   | SW9   | SW10  | SW11  | SW12  |                                               | SW12   | SW11   | SW10   | SW9    | SW8    | SW7    |
-// | SW13  | SW14  | SW15  | SW16  | SW17  | SW18  | SW19  |                               | SW19  | SW18   | SW17   | SW16   | SW15   | SW14   | SW13   |
-//                         | SW20  | SW21  | SW22  | SW23  | SW24  | SW25 || SW25  | SW24  | SW23  | SW22   | SW21   | SW20   | 
         default_layer { // Layer 0
             bindings = <
                 &kp Q   &kp W   &kp E    &kp R   &kp T     &kp MINUS                                   &kp EQUAL         &kp Y     &kp U   &kp I     &kp O    &kp P    
 &mt &to NUM TAB &kp A   &kp S   &kp D    &kp F   &kp G                                                                   &kp H     &kp J   &kp K     &kp L    &kp SEMI &kp ENTER
-&kp LSHFT       &kp Z   &kp X   &kp C    &kp V   &kp B     &kp LBKT                                    &kp RBKT          &kp N     &kp M   &kp COMMA &kp DOT  &kp FLSH &MT RSHFT ENTER                  
+&kp LSHFT       &kp Z   &kp X   &kp C    &kp V   &kp B     &kp LBKT                                    &kp RBKT          &kp N     &kp M   &kp COMMA &kp DOT  &kp FLSH &MT RSHFT ENTER
                                 &kp BSPC &to NAV &kp SPACE &mt LALT &tog NUM &kp LCTRL &mt RCTRL &CAPS &mt RALT &tog NUM &kp SPACE &to NAV &kp BSPC
             >;
         };
