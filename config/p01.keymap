@@ -59,23 +59,23 @@
         };
         num_layer { // Layer 1
             bindings = <
-&none &none &none &none &none &none &none &none &none &none &none &none
-&none &none &none &none &none &none &none &none &none &none &none &none
-&none &none &none &none &none &none &none &none &none &none &none &none &none &none 
-&none &none &none &none &none &none &none &none &none &none &none &none 
+                &kp EXCL &kp AT &kp HASH &kp DLLR &kp PCNT  &kp ESC                                     &kp ESC           &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR    
+&lt NUM TAB &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                                                                  &kp N6    &kp N7   &kp N8   &kp N9   &kp SEMI &kp SQT
+&kp LSHFT       &none   &none   &none    &none    &none     &to BLU                                     &to BLU           &none     &none    &none    &none    &none              
+                                &kp BSPC &mo NAV &kp SPACE &kp LALT &kp LCTRL &mt RCTRL CAPS &mt NUM  &kp SPACE &to NAV &kp BSPC
             >;
         };
         nav_layer { // Layer 2
             bindings = <
-&none &none &none &none &none &none &none &none &none &none &none &none
-&none &none &none &none &none &none &none &none &none &none &none &none
-&none &none &none &none &none &none &none &none &none &none &none &none &none &none 
-&none &none &none &none &none &none &none &none &none &none &none &none 
+      &none &none &kp UP      &none   &none     &none    &none    &none &none &none &none &none    
+&none &none &kp LEFT &kp DOWN    &kp RIGHT  &none     &none    &none    &none     &none &none &none
+&none &none &none &none    &none   &none     &none    &none    &none     &none &none &none &none &none                      
+                                &kp BSPC &mo NAV &kp SPACE &kp LALT &kp LCTRL &mt RCTRL CAPS &mt NUM  &kp SPACE &to NAV &kp BSPC
             >;
         };
         blu_layer { // Layer 3
             bindings = <
-&none &none &none &none &none &none &none &none &none &none &none &none
+    &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR &none &to BASE &to BASE &none &bt BT_CLR &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &none
 &none &none &none &none &none &none &none &none &none &none &none &none
 &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
 &none &none &none &none &none &none &none &none &none &none &none &none 
