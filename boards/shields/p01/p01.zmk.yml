@@ -1,0 +1,11 @@
+file_format: "1"
+id: p01
+name: p01
+type: shield
+url: https://github.com/CYL-Ariel/p01-shield-module
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - p01_left
+  - p01_right
