@@ -21,6 +21,5 @@
 include:
   - board: nice_nano_v2
     shield: p01_left   # Left side (central side if using BLE)
-    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: p01_right  # Right side (peripheral side if using BLE)
