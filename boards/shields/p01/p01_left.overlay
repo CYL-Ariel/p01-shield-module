@@ -1,6 +1,7 @@
 #include "p01.dtsi"
 
 &kscan0 {
+    diode-direction = "row2col"; // Left half uses row-to-column diodes
     col-gpios
         = <&gpio0 20 GPIO_ACTIVE_HIGH>
         , <&gpio0 19 GPIO_ACTIVE_HIGH>
